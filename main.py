@@ -4,7 +4,7 @@ import activation_functions
 
 # This is a test for XOR
 a = aptnet.NeuralNet(2, [2], 1)
-a . set_activation_f(activation_functions.SIGMOID)
+a.set_activation_f(activation_functions.SIGMOID)
 samples_input = [[0, 0],
                  [0, 1],
                  [1, 0],
